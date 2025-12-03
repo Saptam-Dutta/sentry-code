@@ -1,4 +1,4 @@
-﻿# 🔒 SENTRY-CODE: AI-Powered Code Security Reviewer
+﻿# SENTRY-CODE: AI-Powered Code Security Reviewer
 
 An intelligent multi-agent AI system that automatically detects security vulnerabilities, provides LLM-generated explanations, and suggests automated patches.
 
@@ -6,7 +6,7 @@ An intelligent multi-agent AI system that automatically detects security vulnera
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Tests](https://img.shields.io/badge/Tests-7%2F7%20Passing-brightgreen)
 
-## 🎯 Features
+## Features
 
 - **Multi-Agent Architecture**: 6 specialized agents working in coordination
 - **Smart Detection**: Rule-based SAST + heuristic analysis for 8+ vulnerability types
@@ -15,7 +15,7 @@ An intelligent multi-agent AI system that automatically detects security vulnera
 - **Interactive UI**: Beautiful Streamlit web application
 - **Privacy-First**: Local LLM execution - your code never leaves your machine
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -56,18 +56,18 @@ streamlit run ui/app.py
 
 Visit `http://localhost:8501` in your browser.
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Score | Target |
 |--------|-------|--------|
-| **Precision** | 78% | ≥75% ✅ |
-| **Recall** | 85% | ≥60% ✅ |
-| **F1-Score** | 81% | ≥67% ✅ |
-| **Patch Success Rate** | 62% | - |
+| **Precision** | 78% | ≥75% |
+| **Recall** | 85% | ≥60% |
+| **F1-Score** | 81% | ≥67% |
+| **Patch Success Rate** | 62% | ≥60% |
 
 Tested on 50 code samples (30 vulnerable, 20 clean).
 
-## 🏗️ Architecture
+## Architecture
 ```
 User Interface (Streamlit)
     ↓
@@ -87,7 +87,7 @@ Results Dashboard
 5. **LLM Reasoner**: AI-powered explanation generation (Ollama/Llama 3.2)
 6. **Patch Generator**: Automated code fixing with validation
 
-## 🔍 Supported Vulnerabilities
+## Supported Vulnerabilities
 
 | Rule ID | Vulnerability | CWE | Severity |
 |---------|---------------|-----|----------|
@@ -100,7 +100,7 @@ Results Dashboard
 | PY007 | Weak Cryptography | CWE-327 | Medium |
 | PY008 | Debug Mode Enabled | CWE-489 | Medium |
 
-## 🧪 Testing
+## Testing
 ```bash
 # Run all tests
 pytest tests/ -v
@@ -112,7 +112,7 @@ pytest tests/ --cov=src --cov-report=html
 python scripts/run_evaluation.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 sentry-code/
 ├── src/
@@ -127,7 +127,7 @@ sentry-code/
 └── scripts/             # Utility scripts
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Language**: Python 3.12
 - **LLM**: Ollama (Llama 3.2, Mistral, DeepSeek Coder)
@@ -136,13 +136,13 @@ sentry-code/
 - **SAST**: Custom rules + AST parsing
 - **Data Models**: Pydantic
 
-## 📖 Documentation
+## Documentation
 
 - [Project Report](docs/PROJECT_REPORT_COMPLETE.md)
 - [Architecture Details](docs/architecture.md)
 - [Contributing Guidelines](CONTRIBUTING.md)
 
-## 🎓 Academic Context
+## Academic Context
 
 **Generative AI Project**
 
@@ -154,7 +154,7 @@ This project demonstrates:
 
 **Author**: Saptam Kumar Dutta
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -164,18 +164,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OWASP for security guidelines and test cases
 - Ollama team for local LLM infrastructure
 - Streamlit for the amazing UI framework
 - Project guide Anirudh Si for valuable feedback
 
-## 📞 Contact
+## Contact
 
 **Saptam Kumar Dutta**
 - Email: saptamdutta07@gmail.com
