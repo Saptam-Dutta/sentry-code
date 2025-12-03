@@ -144,7 +144,7 @@ sentry-code/
 
 ## 🎓 Academic Context
 
-**BCA 5th Semester - Generative AI Capstone Project**
+**Generative AI Project**
 
 This project demonstrates:
 - Agentic AI system design
@@ -152,9 +152,7 @@ This project demonstrates:
 - Multi-agent orchestration
 - Practical cybersecurity applications
 
-**Author**: Saptam Kumar Dutta  
-**Institution**: Chanakya University  
-**Guide**: Anirudh Si
+**Author**: Saptam Kumar Dutta
 
 ## 🤝 Contributing
 
@@ -180,14 +178,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Saptam Kumar Dutta**
-- Email: saptam.dutta@example.com
+- Email: saptamdutta07@gmail.com
 - GitHub: [@saptamdutta](https://github.com/saptamdutta)
-- LinkedIn: [Saptam Kumar Dutta](https://linkedin.com/in/saptamdutta)
 
 ---
 
 ⭐ If you find this project helpful, please consider giving it a star!
-
-**Submission Date**: November 30, 2025  
-**Course**: Generative AI - BCA 5th Semester  
-**Academic Year**: 2024-25
